@@ -1,0 +1,4 @@
+(executable
+ (name chainclient)
+ (libraries async core parser client_data client_client iloop client_test)
+ (preprocess (pps ppx_jane)))

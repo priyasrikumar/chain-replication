@@ -1,0 +1,8 @@
+servers=2
+clients=25
+backups=0
+duration=10
+ratio=0.15
+lbound=1
+rbound=250
+failures=

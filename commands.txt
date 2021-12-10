@@ -1,0 +1,10 @@
+_build/default/chainnode_src/chain_bin/chainnode.exe -ip 192.168.1.8 -port 10000 -is-init
+_build/default/chainnode_src/chain_bin/chainnode.exe -ip 192.168.1.8 -port 9000 -current-config 192.168.1.8:10002
+_build/default/chainnode_src/chain_bin/chainnode.exe -ip 192.168.1.8 -port 8000 -current-config 192.168.1.8:10002
+
+_build/default/chainclient_src/client_bin/chainclient.exe -current-config 192.168.1.8:10003
+_build/default/chainclient_src/client_bin/chainclient.exe -ip 192.168.1.8 -port 11000 -duration 5 -lbound 1 -rbound 100 -ratio 0.15 -is-test -current-config 192.168.1.8:10003 -seed 479544711080927473
+
+ _build/default/src/bin/chainreplication.exe -ip 10.48.72.102 -port 10000 -is-init
+ _build/default/src/bin/chainreplication.exe -ip 10.48.72.102 -port 9000 -current-config 10.48.72.102:10002
+ _build/default/src/bin/chainreplication.exe -ip 10.48.72.102 -port 8000 -current-config 10.48.72.102:90002

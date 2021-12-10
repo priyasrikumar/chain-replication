@@ -1,0 +1,3 @@
+(library
+ (name client_test)
+ (libraries core async client_data client_client))

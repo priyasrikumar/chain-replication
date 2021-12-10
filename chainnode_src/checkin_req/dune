@@ -1,0 +1,3 @@
+(library
+  (name checkin_req)
+  (libraries core))

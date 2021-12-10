@@ -1,0 +1,3 @@
+(library
+ (name add_proc_server)
+ (libraries core async chain_config chain_log add_proc_req add_proc_ack database chain_json_processor))

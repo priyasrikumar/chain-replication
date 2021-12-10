@@ -1,0 +1,3 @@
+(library
+ (name kill)
+ (libraries core async))

@@ -1,0 +1,3 @@
+(library
+  (name chain_config)
+  (libraries async core))

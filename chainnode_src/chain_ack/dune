@@ -1,0 +1,3 @@
+(library
+  (name chain_ack)
+  (libraries core))

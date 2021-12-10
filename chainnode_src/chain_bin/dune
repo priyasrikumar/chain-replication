@@ -1,0 +1,4 @@
+(executable
+ (name chainnode)
+ (libraries async core chain_ack chain_test chain_client chain_server chain_config database chain_json_processor client_server add_proc_server add_proc_client parser kill)
+ (preprocess (pps ppx_jane)))

@@ -1,0 +1,4 @@
+(executable
+ (name tester)
+ (libraries async core test_config_parser process_starter do_tests)
+ (preprocess (pps ppx_jane)))

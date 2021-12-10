@@ -1,0 +1,3 @@
+(library
+  (name chain_log)
+  (libraries async core yojson chain_config database))

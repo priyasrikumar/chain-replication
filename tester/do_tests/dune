@@ -1,0 +1,3 @@
+(library
+ (name do_tests)
+ (libraries async core process_starter test_config_parser))

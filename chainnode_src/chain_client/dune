@@ -1,0 +1,3 @@
+(library
+ (name chain_client)
+ (libraries core async chain_config chain_log checkin_req chain_json_processor))

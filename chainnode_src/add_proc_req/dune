@@ -1,0 +1,3 @@
+(library
+  (name add_proc_req)
+  (libraries core))

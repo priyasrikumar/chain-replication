@@ -1,0 +1,3 @@
+(library
+ (name client_server)
+ (libraries core async chain_config chain_log client_req client_ack database chain_json_processor))

@@ -1,0 +1,3 @@
+(library
+  (name chain_json_processor)
+  (libraries core yojson chain_log chain_config chain_ack client_ack client_req checkin_req add_proc_req add_proc_ack))
